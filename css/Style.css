@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+body{ font-family: Microsoft JhengHei;}
+/* HTML5 display-role reset for older browsers */
+.wrap{
+	width: 1024px;
+	margin:0 auto;
+	background-color: white;
+    background-image: url("assets//Hero.png");
+    width: 1024px;
+    height: 380px;
+    margin-bottom: 10px;
+}
+.font_Title{
+    color: #FFFFFF;
+    font-size: 40px;
+    letter-spacing: 3.89px;
+    line-height: 41px;
+    padding-left:380.5px;
+    padding-top:89px;
+}
+.Selection{
+    background: rgba(255,255,255,0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    width: 452px;
+    height: 48px;
+    margin-left: 293px;
+    margin-top: 96px;
+    color:#000000;   
+    font-family: Microsoft JhengHei; 
+    font-size:18px;
+    line-height: 21px;
+}
+.HotTitle{
+    margin-top: 79px;
+    margin-left:112px;
+    padding-left:26px;
+    padding-top:20px;
+    width: 800px;
+    height: 112px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    border-radius: 5px;    
+    font-weight: bold;
+   }
+.HotTitle ul{
+    margin-left: 51px;
+    margin-top:14px;
+    font-size: 18px;
+    color: #000000;
+}
+.HotTitle ul li{
+    list-style-type:none;
+    color: #FFFFFF;
+    font-size:20px;
+    text-align:center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width:130px;
+    margin:10px;
+    float:left;
+    border-radius: 5px;
+}
+.HotTitle a {
+    color:#FFFFFF;
+}
+.purple{
+background-color:#8A82CC;}
+.yellow
+{background-color:#F5D105;}
+.blue
+{background-color:#559AC8;}
+.pink
+{background-color:#FFA782;}
+.gap{    
+    border: solid #559AC8;
+    height: 1px;
+    width: 900px;
+    border-width: 1px 0px 0px 0px;
+    margin-top: 27px;
+    margin-left: 62px;
+    position: relative;
+}
+.gap img{
+    position: absolute;
+    top:-4px;
+    margin-left:437px;
+}
+.Selection_result{
+    color: #8A82CC;
+    font-size:36px;
+    margin-top: 89px;
+    margin-left: 458px;
+    margin-bottom: 30px;   
+}
+.List{
+    margin-left: 40px;}
+.List ul{    
+    width: 464px;
+    list-style-type:none;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 #00000033;
+    position: relative;
+    margin-right: 16px;
+    margin-bottom: 36px;
+    float:left;
+    height: 273px;}
+.upperli img {
+    width:464px;
+    height: 155px;
+}
+.upperli_Name{
+    color: #FFFFFF;
+    font-size:24px;
+    position: absolute;
+    top:117px;
+    left:22px;
+    float:left;
+}
+.upperli_Tag{
+    color: #FFFFFF;
+    font-size:16px;
+    line-height: 19px; 
+    position: absolute;
+    top:125px;
+    left:391px;
+}
+.lowerli p{
+    color: #000000;
+    font-size:16px;
+    padding-top:8px;    
+    margin-left:30px;
+    overflow : hidden;
+    text-overflow : ellipsis;
+    white-space : nowrap;
+}
+.lowerli img{
+    margin-right: 9px;    
+    height:20px;
+    width: 16px;
+    }
+.Ticketinfo
+{
+    position: absolute;
+    top:223px;
+    left:323px;
+    
+}
+.gototop{
+    position: fixed;
+    top:972px;
+    left:1828px;
+}
+.clear{
+    clear:both;
+	margin-bottom: 2px;
+}
+.page{
+    margin-left:440px;
+}
+.page li{
+    list-style-type:none;
+    float:left;
+    font-size: 14px;
+    color: #4A4A4A;
+    margin:10px;
+}
+.page li a:link,.page li a:visited{
+    color: #4A4A4A;
+}
+.page li a:hover{
+    background-color: yellowgreen;}
+.footer{
+    margin-top: 105px;
+    background-color: #559AC8;
+    height: 90px;
+    position: relative;
+}
+.footer p
+{ 
+    white-space: nowrap;
+    line-height: 1.5;
+    font-size:14px;
+    line-height: 17px;
+}
+.TextName{
+    color:#FFD366;
+    position: absolute;  
+    top:24px;
+    left:477px; }
+.textDatasource{
+    color:#FFFFFF;
+    position: absolute;       
+    top:53px;
+    left:440px;
+    }
